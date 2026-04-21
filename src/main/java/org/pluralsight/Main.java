@@ -47,6 +47,7 @@ public class Main {
 
             // put logging function AFTER user's input
             logAction("SHOW USER SEARCH", searchTerm);
+            // NOTE: add a boolean flag to avoid empty SHOW USER SEARCH lines in the log
 
         }
     }
